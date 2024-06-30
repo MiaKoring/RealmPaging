@@ -14,10 +14,12 @@ class Item: Object, ObjectKeyIdentifiable {
     init(name: String, color: AvailableColors, id: Int) {
         self.name = name
         self.color = color.rawValue
+        self.itemID = id
     }
     
     init(name: String, color: String, id: Int) {
         self.name = name
         self.color = color
+        self.itemID = id
     }
 }

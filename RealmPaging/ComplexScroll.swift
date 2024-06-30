@@ -8,7 +8,7 @@
 import SwiftUI
 import RealmSwift
 
-struct ContentView: View {
+struct ContentView1: View {
     @ObservedResults(Item.self, sortDescriptor: SortDescriptor(keyPath: "itemID", ascending: true)) var items
     @State var range: Range<Int> = Range(0...0)
     @State var rendered: [Item] = []
@@ -64,5 +64,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView1()
 }
+

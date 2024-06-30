@@ -28,7 +28,7 @@ struct FirstView: View {
             GenView(showMain: $showMain)
         }
     }
-}
+} 
 
 
 struct GenView: View {
