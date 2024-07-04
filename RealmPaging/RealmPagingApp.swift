@@ -25,7 +25,7 @@ struct FirstView: View {
             ContentView()
         }
         else {
-            GenView(showMain: $showMain)
+            AppendingNotFlipped()
         }
     }
 } 

@@ -16,6 +16,7 @@
 		A6393DC52C2DECB3005EAD57 /* AvailableColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6393DC42C2DECA9005EAD57 /* AvailableColors.swift */; };
 		A6393DC62C2DF2B5005EAD57 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A6393DBE2C2DEB56005EAD57 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A6DC8DBD2C31AA3200E2CB64 /* AppendingScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DC8DBC2C31AA2D00E2CB64 /* AppendingScroll.swift */; };
+		A6DE659C2C3719C400BBD7FF /* AppendingNotFlipped.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DE659B2C3719BF00BBD7FF /* AppendingNotFlipped.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		A6393DC12C2DEB7B005EAD57 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A6393DC42C2DECA9005EAD57 /* AvailableColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableColors.swift; sourceTree = "<group>"; };
 		A6DC8DBC2C31AA2D00E2CB64 /* AppendingScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendingScroll.swift; sourceTree = "<group>"; };
+		A6DE659B2C3719BF00BBD7FF /* AppendingNotFlipped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendingNotFlipped.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				A6393DAF2C2DEADB005EAD57 /* RealmPagingApp.swift */,
 				A6393DB12C2DEADB005EAD57 /* ComplexScroll.swift */,
 				A6DC8DBC2C31AA2D00E2CB64 /* AppendingScroll.swift */,
+				A6DE659B2C3719BF00BBD7FF /* AppendingNotFlipped.swift */,
 				A6393DB32C2DEADE005EAD57 /* Assets.xcassets */,
 				A6393DB52C2DEADE005EAD57 /* Preview Content */,
 			);
@@ -181,6 +184,7 @@
 				A6393DB22C2DEADB005EAD57 /* ComplexScroll.swift in Sources */,
 				A6393DC22C2DEB81005EAD57 /* Item.swift in Sources */,
 				A6DC8DBD2C31AA3200E2CB64 /* AppendingScroll.swift in Sources */,
+				A6DE659C2C3719C400BBD7FF /* AppendingNotFlipped.swift in Sources */,
 				A6393DB02C2DEADB005EAD57 /* RealmPagingApp.swift in Sources */,
 				A6393DC52C2DECB3005EAD57 /* AvailableColors.swift in Sources */,
 			);
